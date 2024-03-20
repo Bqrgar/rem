@@ -1,0 +1,35 @@
+html{
+    font-size: 24px;/*el tamaño de fuente del padre html es de 24px*/
+}
+h1{
+    font-size: 16px;/*la letra de h1 tiene un tamaño de 16px*/
+}
+h2{
+    font-size: 1rem;/*h2-h6 usan rem, 1 rem es 24px, ya que rem depende de la medida del padre, osea html*/
+}
+h3{
+    font-size: 1.75rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1.25rem;
+}
+h6{
+    font-size: 1.05rem;
+}
+
+.contenedor{
+    width: 70%;/*utiliza el 70% del espacio disponible, no de la pantalla*/
+    height: 400px;
+    background-color: aqua;
+    margin: 30px auto;
+}
+.hijo{
+    width: 70vw;/*utiliza el 70$ de anchura de la pantalla*/
+    height: 50vh;/*utiliza el 50% de la altura de la pantalla*/
+    background-color: blueviolet;
+    margin: 30px auto;
+    margin-top: 30px;
+}
